@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #2b2b2b;
+}
+
+.loder {
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loder span {
+    color: rgba(255, 255, 255, .1);
+    font-family: arial;
+    font-size: 30px;
+    animation: ante 2s infinite;
+}
+
+@keyframes ante {
+    0% {
+        color: rgba(255, 255, 255, .1);
+        margin-left: 0;
+    }
+    50% {
+        color: red;
+        margin-left: 9px;
+    }
+    100% {
+        color: rgba(255, 255, 255, .1);
+    }
+}
+
+.loder span:nth-child(1) {
+    animation-delay: .1s;
+}
+
+.loder span:nth-child(2) {
+    animation-delay: .2s;
+}
+
+.loder span:nth-child(3) {
+    animation-delay: .3s;
+}
+
+.loder span:nth-child(4) {
+    animation-delay: .4s;
+}
+
+.loder span:nth-child(5) {
+    animation-delay: .5s;
+}
+
+.loder span:nth-child(6) {
+    animation-delay: .6s;
+}
+
+.loder span:nth-child(7) {
+    animation-delay: .7s;
+}
